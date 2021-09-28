@@ -11,10 +11,10 @@ class MyTestCase(unittest.TestCase):
         # Add two more tests of your own below here
         self.assertEqual(75, return_addtion.add_two(25, 50))
         self.assertEqual(-45, return_addtion.add_two(-40, -5))
-
+# triangle_area opens the tab then .area uses the function
     def test_triangle_area(self):
         self.assertEqual(6.0, triangle_area.area(3, 4, 5))
-        self.assertAlmostEqual(12.968712349343, triangle_area.area(7, 5, 11), 0.1)
+        self.assertAlmostEqual(12.968712349343, triangle_area.area(7, 5, 11))
 
 
 if __name__ == '__main__':
