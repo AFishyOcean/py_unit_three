@@ -14,6 +14,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_triangle_area(self):
         self.assertEqual(6.0, triangle_area.area(3, 4, 5))
+        self.assertAlmostEqual(12.968712349343, triangle_area.area(7, 5, 11), 0.1)
 
 
 if __name__ == '__main__':
