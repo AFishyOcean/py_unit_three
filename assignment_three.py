@@ -21,8 +21,8 @@ def get_length():
     z = input("What is the length")
     return float(z)
 def rectangle_area(x, y):
-    side = x * y
-    return side
+    side_area = x * y
+    return side_area
 def calculate_surface_area(x, y , z):
     """
     calculates all the surface areas then adds them. Spits out the answer as calculate_surface_area
@@ -49,7 +49,7 @@ also assigns functions a value
     x = get_width()
     y = get_height()
     z = get_length()
-    total = calculate_surface_area(x, y ,z)
+    total = calculate_surface_area()
     reply(x, y, z, total)
 
 if __name__ == '__main__':
