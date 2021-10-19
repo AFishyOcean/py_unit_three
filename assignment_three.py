@@ -1,3 +1,6 @@
+# David Jones
+# 10/14/2021
+# Calculates the surface area of a rectangular prism
 print("This program calculates the surface area of a rectangular prism")
 def get_width():
     """
@@ -21,6 +24,12 @@ def get_length():
     z = input("What is the length")
     return float(z)
 def rectangle_area(x, y):
+    """
+    calculates the side areas of the prism
+    :param x:
+    :param y:
+    :return:
+    """
     side_area = x * y
     return side_area
 def calculate_surface_area(x, y , z):
